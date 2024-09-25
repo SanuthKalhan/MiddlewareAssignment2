@@ -1,9 +1,9 @@
 spring:
   application:
-    name: billing
+    name: sms
   data:
     mongodb:
-      uri: mongodb+srv://stlADMIN:stladmin1234@cluster0.vtowf.mongodb.net/billing?retryWrites=true&w=majority
+      uri: mongodb+srv://stlADMIN:stladmin1234@cluster0.vtowf.mongodb.net/sms?retryWrites=true&w=majority
 
 # Eureka Client Configuration
 eureka:
@@ -15,4 +15,5 @@ eureka:
 
 # Server Port (Optional)
 server:
-  port: 8081
+  port: 8082
+

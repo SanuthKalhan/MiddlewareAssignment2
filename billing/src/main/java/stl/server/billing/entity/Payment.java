@@ -22,7 +22,7 @@ public class Payment {
     @NotNull
     private BigDecimal amount;
 
-    private String transactionId; // payment gateway transaction ID
+    private String transactionId; 
 
     public String getId() {
         return id;
