@@ -2,8 +2,8 @@ package stl.server.notification.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import stl.server.notifications.entity.Notification;
-import stl.server.notifications.repository.NotificationRepository;
+import stl.server.notification.entity.Notification;
+import stl.server.notification.repo.NotificationRepository;
 
 import java.util.List;
 

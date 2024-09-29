@@ -2,7 +2,7 @@ package stl.server.notification.repo;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import stl.server.notifications.entity.Notification;
+import stl.server.notification.entity.Notification;
 
 import java.util.List;
 

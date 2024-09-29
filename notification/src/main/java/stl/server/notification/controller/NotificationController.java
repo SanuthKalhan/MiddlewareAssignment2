@@ -3,8 +3,8 @@ package stl.server.notification.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import stl.server.notifications.entity.Notification;
-import stl.server.notifications.service.NotificationService;
+import stl.server.notification.entity.Notification;
+import stl.server.notification.service.NotificationService;
 
 import java.util.List;
 
