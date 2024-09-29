@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: notifications
+  data:
+    mongodb:
+      uri: mongodb+srv://stlADMIN:stladmin1234@cluster0.vtowf.mongodb.net/notifications?retryWrites=true&w=majority
+
+# Eureka Client Configuration
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+# Server Port (Optional)
+server:
+  port: 8083
